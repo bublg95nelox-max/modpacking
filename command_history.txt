@@ -1,0 +1,6 @@
+/locate structure towns_and_towers:village_forest
+/tp @s -688 ~ -1584
+/locate structure minecraft:village_plains
+/tp @s -1376 ~ -1248
+/weather clear
+/kill @e[type=witch]

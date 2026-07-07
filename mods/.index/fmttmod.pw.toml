@@ -1,0 +1,18 @@
+filename = 'FMTT-1.21.1-1.6.6.jar'
+name = 'From Magic To Tech Mod'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FMTT-1.21.1-1.6.6'
+
+[download]
+hash = '2a17643a98695b3578fdd72994514f0a9707c882'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7771767
+project-id = 910350

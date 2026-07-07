@@ -1,0 +1,36 @@
+#Additional biomes the player can have unlimited time in werewolf form. Use biome ids e.g. ["minecraft:mesa", "minecraft:plains"]
+werewolfFormFreeFormBiomes = []
+
+[infection]
+	#Disable the ability to infect a player with Lupus Sanguinem by using a werewolf tooth
+	disableWerewolfToothInfection = false
+	#Chance that a mob bite infects a player with Lupus Sanguinem
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	mobBiteInfectChance = 0.05
+	#Chance that a player bite infects a player with Lupus Sanguinem
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	playerBiteInfectChance = 0.1
+
+[meat]
+    customMeatItems = [
+        "minecraft:cooked_beef",
+        "minecraft:cooked_porkchop",
+        "minecraft:cooked_mutton",
+        "minecraft:cooked_chicken",
+        "minecraft:cooked_rabbit",
+        "minecraft:cooked_salmon",
+        "minecraft:cooked_cod",
+        "werewolves:raw_food"
+    ]
+    customRawMeatItems = [
+        "minecraft:beef",
+        "minecraft:porkchop",
+        "minecraft:mutton",
+        "minecraft:chicken",
+        "minecraft:rabbit",
+        "minecraft:salmon",
+        "minecraft:cod",
+        "werewolves:raw_food"
+    ]

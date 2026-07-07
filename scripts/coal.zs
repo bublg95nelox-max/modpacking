@@ -1,0 +1,1 @@
+craftingTable.addShapeless("coal", <item:minecraft:charcoal> * 1, [<item:minecraft:coal>]);

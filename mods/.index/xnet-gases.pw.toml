@@ -1,0 +1,25 @@
+filename = 'xnetgases-1.21.1-6.0.2.jar'
+name = 'XNet Gases'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-v6.0.2'
+
+[download]
+hash = 'fdc4099865551cb4a68e493dc5c933a8da819dfe'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7561388
+project-id = 383182
+
+[[x-prismlauncher-dependencies]]
+addonId = '260912'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268560'
+type = 'REQUIRED'

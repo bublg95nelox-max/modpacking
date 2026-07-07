@@ -1,0 +1,32 @@
+type = user_variables
+
+variable {
+  name = userresult
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = randomresult
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = correct
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = random2
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = random1
+  value = 
+  reset_on_launch = true
+}
+

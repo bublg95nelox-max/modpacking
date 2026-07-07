@@ -1,0 +1,14 @@
+.mixin.out/
+logs/
+crash-reports/
+saves/
+local/
+webcache/options.txt
+optionsof.txt
+optionsshaders.txt
+hotbar.nbt
+wm_id.txt
+mods/*.jar
+!mods/packwiz-installer-bootstrap.jar
+journeymap/
+config/**/cache/

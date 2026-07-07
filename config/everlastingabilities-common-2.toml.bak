@@ -1,0 +1,7 @@
+[general]
+	#If ability effects should apply. Disable this if you don't want any abilities to work. Useful for debugging.
+	general = true
+
+[core]
+	#When combining totems, percentage chance of getting one higher rarity than normal.
+	ability_totem = 15

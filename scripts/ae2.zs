@@ -1,0 +1,1 @@
+craftingTable.addShapeless("ae2", <item:ae2:certus_quartz_crystal> * 3, [<item:minecraft:redstone>, <item:minecraft:quartz>, <item:minecraft:glowstone_dust>]);

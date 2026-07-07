@@ -1,0 +1,18 @@
+filename = 'nyfsspiders-neoforge-1.21.1-3.0.1.jar'
+name = "Nyf's Spiders"
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Nyf's Spiders-1.21.1-[NeoForge]-3.0.1"
+
+[download]
+hash = '97a3b90f3566b4870c395a463f04961e2a6fa383'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7445048
+project-id = 686058

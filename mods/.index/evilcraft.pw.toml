@@ -1,0 +1,21 @@
+filename = 'evilcraft-1.21.1-neoforge-1.2.89.jar'
+name = 'EvilCraft'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'evilcraft-1.21.1-neoforge-1.2.89.jar'
+
+[download]
+hash = '3cf33c655801b28f86b17454e4a2b22434c6fb2a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8246875
+project-id = 74610
+
+[[x-prismlauncher-dependencies]]
+addonId = '232758'
+type = 'REQUIRED'

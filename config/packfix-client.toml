@@ -1,0 +1,10 @@
+#Rendering fixes for Mekanism (applied only when Mekanism is installed)
+[mekanism]
+	#Skip rendering the contents of pipes/tubes/cables (flowing fluid, traveling items, ...)
+	#beyond transmitterContentsRenderDistance blocks. Mekanism renders these via block entity
+	#renderers up to 64 blocks away, which is a large FPS cost in pipe-heavy bases.
+	limitTransmitterContentsRenderDistance = true
+	#Maximum distance (in blocks) at which transmitter contents are rendered.
+	# Default: 32
+	# Range: 8 ~ 64
+	transmitterContentsRenderDistance = 32

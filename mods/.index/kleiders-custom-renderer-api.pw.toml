@@ -1,0 +1,18 @@
+filename = 'Kleiders Custom Renderer API 7.2.0 1.21.1.jar'
+name = 'Kleiders Custom Renderer API'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Kleiders Custom Renderer API 7.2.0 1.21.1.jar'
+
+[download]
+hash = '1eca38ab0d127bb105c4ab63ed32df6d45376887'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5675429
+project-id = 682065

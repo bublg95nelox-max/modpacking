@@ -1,0 +1,13 @@
+name = "Sborka67"
+author = "Me"
+version = "1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "88546ef4957e54caf8d604490871a7c077de8605d5a1a8cfc0c520024fc931b8"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

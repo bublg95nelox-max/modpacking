@@ -1,0 +1,8 @@
+craftingTable.remove(<item:thermal:energy_duct>);
+var x = <item:mekanism:ultimate_universal_cable>;
+var y = <tag:items:forge:ingots/lead>;
+var z = <tag:items:forge:glass>;
+craftingTable.addShaped("fluxduct", <item:thermal:energy_duct> * 2, [
+    [x, x, x],
+	[y, z, y],	
+    [x, x, x]]);

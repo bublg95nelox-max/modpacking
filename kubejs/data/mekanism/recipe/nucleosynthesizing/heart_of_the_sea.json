@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "chemical_input": {
+    "amount": 10,
+    "chemical": "mekanism:antimatter"
+  },
+  "duration": 2000,
+  "item_input": {
+    "count": 1,
+    "item": "minecraft:nautilus_shell"
+  },
+  "output": {
+    "count": 1,
+    "id": "minecraft:heart_of_the_sea"
+  },
+  "per_tick_usage": false
+}

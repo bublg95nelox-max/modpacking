@@ -1,0 +1,1 @@
+<recipetype:pneumaticcraft:pressure_chamber>.addRecipe("heart", [<item:minecraft:rotten_flesh> * 2, <item:minecraft:sugar>], [<item:vampirism:human_heart>], 2.0);

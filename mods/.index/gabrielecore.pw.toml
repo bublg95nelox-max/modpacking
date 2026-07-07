@@ -1,0 +1,18 @@
+filename = 'gabrielecore-1.21.1-1.1.4.jar'
+name = 'GabrieleCore'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gabrielecore-1.21.1-1.1.4.jar'
+
+[download]
+hash = '772f5471aeaf2c81ce070b3ff5fc55fd0b4408ba'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7567419
+project-id = 1290847

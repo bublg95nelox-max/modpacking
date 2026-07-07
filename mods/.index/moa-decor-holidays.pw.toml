@@ -1,0 +1,18 @@
+filename = 'MOAdecor HOLIDAYS 1.21.1.A.jar'
+name = 'MOA DECOR: HOLIDAYS'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MOAdecor HOLIDAYS 1.21.1.A.jar'
+
+[download]
+hash = 'cbbdd33d20da0666751c0b3510c3fbde65c34453'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5790551
+project-id = 920001

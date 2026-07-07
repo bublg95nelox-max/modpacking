@@ -1,0 +1,331 @@
+[15:02:41] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:02:41] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:02:41] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
+[15:02:41] [Render thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:com.minecolonies.core.compatibility.journeymap.JourneymapPlugin: for:minecolonies
+[15:02:41] [Render thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:com.simibubi.create.compat.trainmap.JourneyTrainMap: for:create
+[15:02:41] [Render thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:net.blay09.mods.waystones.compat.JourneyMapIntegration: for:waystones
+[15:02:41] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[15:02:42] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:02:42] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[15:02:42] [Render thread/INFO] [?] Version: JourneyMap 1.21.1-6.0.0-beta.88, built with neoforge 0.116.7+1.21.1
+neoforge: 21.1.233
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ru_ru, locale=ru_ru
+MP: : 89~248~236~148~27120 : 89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff : 
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.88, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, hudRenderLayer=jm.minimap.hud_render_layer_last, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.0-beta.88, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, hudRenderLayer=jm.minimap.hud_render_layer_last, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.0-beta.88, zoomLevel=512, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, pauseGame=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.88, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showLabelBackground=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, autoHideLabelVertical=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, autoHideLabelVerticalAngle=10, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.88, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.88, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, minimapPresetOverlay=true, caveShader=jm.common.map_filter.default, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, netherSurfaceLighting=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2000, minimapMapTypeOverlay=true, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, drawStepUpdateRate=500, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3000, ignoreHeightmaps=false, lodsEnabled=true, themeName=Purist, mapCaveLighting=true, renderDelay=500, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[15:02:42] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 167.39ms
+[15:02:43] [Render thread/INFO] [JourneymapClientNeoForge] Journeymap PostInit
+[15:02:43] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[15:02:43] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[15:02:43] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/C:/Users/bulki/Desktop/Papka%20with%20papka/Всякое/PRISM/instances/From%20Magic%20To%20Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:43] [Render thread/DEBUG] [FileHandler] ZipFilePath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar zipEntryName:assets/journeymap/theme/victorian_ destDir:C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\icon\theme\victorian_ overWrite:true fromPath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:43] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/C:/Users/bulki/Desktop/Papka%20with%20papka/Всякое/PRISM/instances/From%20Magic%20To%20Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:43] [Render thread/DEBUG] [FileHandler] ZipFilePath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar zipEntryName:assets/journeymap/theme/flat destDir:C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\icon\theme\flat overWrite:true fromPath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:44] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/C:/Users/bulki/Desktop/Papka%20with%20papka/Всякое/PRISM/instances/From%20Magic%20To%20Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:44] [Render thread/DEBUG] [FileHandler] ZipFilePath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar zipEntryName:assets/journeymap/theme/vault_flat destDir:C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\icon\theme\vault_flat overWrite:true fromPath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:44] [Render thread/INFO] [NeoForgeHooks] ModFileLocation:file:/C:/Users/bulki/Desktop/Papka%20with%20papka/Всякое/PRISM/instances/From%20Magic%20To%20Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:44] [Render thread/DEBUG] [FileHandler] ZipFilePath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar zipEntryName:assets/journeymap/theme/vault destDir:C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\icon\theme\vault overWrite:true fromPath:C:/Users/bulki/Desktop/Papka with papka/Всякое/PRISM/instances/From Magic To Tech/minecraft/mods/journeymap-neoforge-1.21.1-6.0.0-beta.88.jar
+[15:02:44] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[15:02:44] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 933.45ms
+[15:02:56] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: Default Palette
+[15:03:09] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null
+[15:03:35] [Render thread/INFO] [JourneymapClient] World UID is set to: 79cc74ae-349d-4d81-820a-47f48ea081ff
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:03:35] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:03:36] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:03:46] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[15:03:46] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[15:03:46] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:03:46] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:03:46] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:03:46] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:03:46] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:03:46] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[15:03:46] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[15:03:46] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[15:03:46] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[15:03:46] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[15:03:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\colorpalette.json
+[15:03:46] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\data\mp\89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff\colorpalette.json
+[15:03:46] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\data\mp\89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff\overworld. Memory: 4192MB total, 1355MB free 
+[15:03:46] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\data\mp\89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff\overworld\chunk_cache
+[15:03:46] [Render thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:03:47] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:03:54] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:03:54] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:03:54] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:03:54] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:03:54] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:03:55] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:03:55] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:03:55] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:03:55] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:03:55] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:04:05] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:04:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:04:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:04:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:04:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:04:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:05:06] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:05:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:05:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:05:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:05:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:05:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:05:22] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:05:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[15:06:12] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[15:06:14] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:06:14] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:06:14] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:06:14] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:06:15] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:06:17] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:06:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:06:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:06:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:06:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:06:18] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:06:20] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:06:20] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5_blinking.png
+[15:06:24] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:06:25] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:06:25] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:06:25] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:06:26] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:06:26] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:06:27] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:06:34] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:06:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:07:10] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:10] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:10] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:10] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:10] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:11] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:07:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:07:29] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:07:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:07:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3_blinking.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:07:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:44] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:07:44] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:07:44] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:07:44] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:07:44] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:07:44] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:07:45] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:07:48] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3_blinking.png
+[15:12:49] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3_blinking.png
+[15:12:49] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:12:49] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:12:49] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:12:50] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:12:50] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:12:50] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:12:52] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:13:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:13:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:13:35] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:13:36] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:13:36] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3_blinking.png
+[15:13:36] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:13:36] [Render thread/WARN] [JMLogger] Image is null: aquaculture:textures/entity_icon/fish/pacific_halibut.png
+[15:13:36] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:13:39] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:13:43] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5_blinking.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3_blinking.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: aquaculture:textures/entity_icon/fish/pacific_halibut.png
+[15:14:19] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:15:01] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5_blinking.png
+[15:15:24] [Render thread/WARN] [JMLogger] Image is null: creeperoverhaul:textures/entity_icon/plains/plains_creeper.png
+[15:16:14] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_2.png
+[15:16:14] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3.png
+[15:16:15] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_5.png
+[15:16:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/hippocampus/hippocampus_3_blinking.png
+[15:16:38] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:17:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:17:28] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:17:28] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_0.png
+[15:17:31] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_1.png
+[15:18:20] [Render thread/WARN] [JMLogger] Image is null: creeperoverhaul:textures/entity_icon/plains/plains_creeper.png
+[15:20:01] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/ghost/ghost_white.png
+[15:22:21] [Render thread/WARN] [JMLogger] Image is null: creeperoverhaul:textures/entity_icon/plains/plains_creeper.png
+[15:22:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:22:41] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_3.png
+[15:23:13] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/pixie/pixie_4.png
+[15:23:17] [Render thread/WARN] [JMLogger] Image is null: iceandfire:textures/entity_icon/ghost/ghost_white.png
+[15:25:44] [Render thread/WARN] [JMLogger] Image is null: creeperoverhaul:textures/entity_icon/plains/plains_creeper.png
+[15:27:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:27:57] [Render thread/WARN] [JMLogger] GL error 1282 pending before RegionTexture upload (raised by earlier rendering, not JourneyMap): C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\data\mp\89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff\overworld\night\-3,-3.png
+[15:28:26] [Render thread/WARN] [JMLogger] Image is null: endermanoverhaul:textures/entity_icon/default/default_enderman.png
+[15:30:02] [Render thread/WARN] [JMLogger] Image is null: endermanoverhaul:textures/entity_icon/default/default_enderman.png
+[15:30:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[15:41:27] [Render thread/WARN] [JMLogger] Image is null: creeperoverhaul:textures/entity_icon/plains/plains_creeper.png
+[16:02:20] [Render thread/WARN] [JMLogger] Image is null: creeperoverhaul:textures/entity_icon/plains/plains_creeper.png
+[16:03:46] [Render thread/WARN] [JMLogger] Image is null: endermanoverhaul:textures/entity_icon/default/default_enderman.png
+[16:10:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for class org.cyclops.evilcraft.entity.monster.EntityVengeanceSpirit via class org.cyclops.evilcraft.client.render.entity.RenderVengeanceSpirit
+[16:12:04] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[16:12:04] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[16:12:04] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[16:12:04] [Render thread/INFO] [WaypointGroupStore] Loaded 0 waypoint groups from disk.
+[16:12:04] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=false)
+[16:12:04] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[16:12:04] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[16:12:04] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\data\mp\89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff\minecraft:overworld
+[16:12:04] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\bulki\Desktop\Papka with papka\Всякое\PRISM\instances\From Magic To Tech\minecraft\journeymap\data\mp\89~248~236~148~27120_79cc74ae~349d~4d81~820a~47f48ea081ff\minecraft:overworld
+[16:12:04] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)
+[16:12:04] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[22:06:20] [Render thread/INFO] [PlayerConnectHandler] onDisconnect: world is null

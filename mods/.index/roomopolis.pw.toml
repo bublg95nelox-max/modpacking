@@ -1,0 +1,18 @@
+filename = 'roomopolis-1.21.1-2.8.3.jar'
+name = 'BBL Rooms'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'roomopolis-1.21.1-2.8.3.jar'
+
+[download]
+hash = '9eae719622dd23f1718e0c16a5aea12db650ac4f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7709555
+project-id = 1000075

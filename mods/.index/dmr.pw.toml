@@ -1,0 +1,21 @@
+filename = 'Dragon Mounts Remastered-1.21.1-1.9.2.jar'
+name = 'Dragon Mounts Remastered'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Dragon Mounts Remastered 1.9.2'
+
+[download]
+hash = '261c87d7fb0888622b26a27f54da039f01b25c06'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6974554
+project-id = 975216
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

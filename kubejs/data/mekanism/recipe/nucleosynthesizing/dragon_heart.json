@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:nucleosynthesizing",
+  "chemical_input": {
+    "amount": 10,
+    "chemical": "mekanism:antimatter"
+  },
+  "duration": 2000,
+  "item_input": {
+    "count": 1,
+    "item": "minecraft:nether_star"
+  },
+  "output": {
+    "count": 1,
+    "id": "draconicevolution:dragon_heart"
+  },
+  "per_tick_usage": false
+}

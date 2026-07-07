@@ -1,0 +1,89 @@
+#General options
+[general]
+	#Send a chat message when a player joins, listing how many (and which) mods PackFix is
+	#currently applying performance fixes to.
+	joinMessage = true
+
+#Fixes for Mekanism (applied only when Mekanism is installed)
+[mekanism]
+	#Cache the computed output sides of machine ejectors (TileComponentEjector#getSidesForData).
+	#Vanilla Mekanism rebuilds these EnumSets every tick for every machine with auto-eject enabled.
+	#The cache is invalidated whenever the side config of the machine changes. No behavior change.
+	ejectorSideCache = true
+	#When an energy/fluid/chemical network moved nothing during a tick (all acceptors full or
+	#missing), progressively skip polling the acceptors for a few ticks instead of asking every
+	#acceptor every tick. Throughput while anything is flowing is completely unaffected.
+	networkEmitBackoff = true
+	#Maximum number of ticks an idle network may skip between acceptor polls.
+	# Default: 8
+	# Range: 1 ~ 100
+	networkEmitBackoffMaxTicks = 8
+	#Remember for a few ticks which destinations rejected an item type, and skip re-simulating
+	#the insert against those destinations. This is the biggest win on busy logistical transporter
+	#networks (sorters, round-robin, idling stacks) where Mekanism otherwise simulates an insertion
+	#into EVERY inventory on the network for every routing attempt.
+	transporterRejectionCache = true
+	#How many ticks a rejection stays cached. Keep this lower than 10 (the retry period of
+	#sorters/ejectors) so freed-up inventories are picked up on the next retry cycle.
+	# Default: 6
+	# Range: 1 ~ 40
+	transporterRejectionCacheTicks = 6
+	#Logistical transporters set to PULL rescan the adjacent inventory every 3 ticks even when it
+	#is empty. This applies the same exponential backoff Mekanism already uses for failed insertions
+	#(up to transporterPullBackoffMaxTicks) when there is nothing to pull.
+	transporterPullBackoff = true
+	#Maximum delay in ticks between pull attempts on an empty inventory.
+	# Default: 40
+	# Range: 4 ~ 200
+	transporterPullBackoffMaxTicks = 40
+	#While contents flow, a transmitter network flags every chunk it spans as unsaved every tick
+	#(one chunk lookup per chunk per network per tick). This throttles the flagging to once every
+	#networkChunkDirtyIntervalTicks. Only effect: after a hard crash, up to that many ticks of
+	#cable/pipe buffer changes may not have been flagged for saving.
+	networkChunkDirtyThrottle = true
+	#Minimum number of ticks between two chunk-dirty sweeps of the same network.
+	# Default: 20
+	# Range: 2 ~ 200
+	networkChunkDirtyIntervalTicks = 20
+	#Machines whose contents change recompute their comparator output every tick, even when no
+	#comparator is reading them. With this fix the (vanilla-accurate) comparator neighborhood is
+	#scanned every comparatorScanIntervalTicks, and when no comparator is found the recompute only
+	#runs every comparatorIdleIntervalTicks to keep the cached level fresh for pull-readers.
+	#Machines with bounding blocks (Digital Miner etc.) are never gated.
+	comparatorUpdateGating = true
+	#How often (in ticks) to re-scan for comparators around a machine with pending comparator updates.
+	# Default: 10
+	# Range: 1 ~ 100
+	comparatorScanIntervalTicks = 10
+	#How often (in ticks) the comparator level is recomputed while no comparator is nearby.
+	# Default: 20
+	# Range: 1 ~ 200
+	comparatorIdleIntervalTicks = 20
+
+#Fixes for Lootr (applied only when Lootr is installed)
+[lootr]
+	#Every Lootr container (chests, barrels, pots, minecarts, item frames) checks its decay and
+	#refresh timers EVERY tick, and each check performs multiple saved-data lookups with string
+	#and factory allocations. In profiled worlds Lootr containers are the single most expensive
+	#block entity group. This runs the check once every lootrTickIntervalTicks per container
+	#instead (staggered so containers don't all tick on the same tick). Only effect: decay/refresh
+	#completion is detected with up to that many ticks of delay.
+	lootrTickThrottle = true
+	#How often (in ticks) each Lootr container checks its decay/refresh timers.
+	# Default: 20
+	# Range: 2 ~ 200
+	lootrTickIntervalTicks = 20
+	#Mirror Lootr's decay/refresh timers in memory. Each timer read in Lootr performs two
+	#saved-data lookups, a legacy-data migration attempt, a factory allocation and string
+	#concatenations; the timers only change when they are explicitly set or cleared, so the
+	#mirror turns every read into a single hashmap lookup. No behavior change.
+	lootrTimerCache = true
+
+#Fixes for GTCEu (applied only when GTCEu is installed)
+[gtceu]
+	#GTCEu runs its data fixers on every chunk load, and the 'already fixed' marker is only
+	#persisted when a chunk is saved - chunks that are loaded but never modified pay the full
+	#DataFixerUpper pass on every load, forever (a large share of chunk-load lag spikes, and
+	#vanilla world optimization does not help). All GTCEu fixes only transform gtceu-namespaced
+	#data, so this skips the pass entirely when the chunk contains no 'gtceu' string at all.
+	dataFixerSkip = true

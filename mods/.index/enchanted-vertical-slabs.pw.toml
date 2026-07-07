@@ -1,0 +1,18 @@
+filename = 'enchanted-vertical-slabs-2.3.2-neoforge-mc1.21.jar'
+name = 'Enchanted Vertical Slabs'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NF] v2.3.2 for mc 1.21.1'
+
+[download]
+hash = 'c79190277ac923f17b025bcfd438f704279cfd0d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6796088
+project-id = 559148

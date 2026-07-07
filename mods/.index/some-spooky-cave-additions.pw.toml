@@ -1,0 +1,18 @@
+filename = 'SSCA-v1-1.21.1.jar'
+name = 'Some Spooky Cave Additions [SSCA] [Horror, ambient]'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SSCA v1.0.0 | 1.21.1 Neoforge'
+
+[download]
+hash = '0efa04a65c3ce69570f8de24ee2d987936478c93'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6693063
+project-id = 1293826
