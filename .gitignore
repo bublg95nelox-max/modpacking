@@ -5,6 +5,7 @@ saves/
 local/
 webcache/options.txt
 optionsof.txt
+options.txt
 optionsshaders.txt
 hotbar.nbt
 wm_id.txt
