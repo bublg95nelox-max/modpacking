@@ -9,7 +9,5 @@ options.txt
 optionsshaders.txt
 hotbar.nbt
 wm_id.txt
-mods/*.jar
-!mods/packwiz-installer-bootstrap.jar
 journeymap/
 config/**/cache/
